@@ -16,6 +16,7 @@
 .header{
     background: url(../images/kkkk.jpg) no-repeat center /cover;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .header__menu{
@@ -41,4 +42,17 @@
 }
 .header__menu-link:active{
     color: red;
+}
+.main{
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+    box-shadow: 0 0 40px 40px grey;
 }
